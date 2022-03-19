@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿//====================================================================================================
+// v1.0.1
+// Twitter : @ayaha__401
+//====================================================================================================
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
