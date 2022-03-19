@@ -1,0 +1,2 @@
+# CreatHLSLScript
+Unityで右クリックからHLSLを作れるようになるEditor拡張
