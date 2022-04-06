@@ -1,5 +1,5 @@
 ﻿//====================================================================================================
-// v1.0.1
+// v1.0.2
 // Twitter : @ayaha__401
 //====================================================================================================
 using System.Collections;
@@ -13,7 +13,7 @@ public class CreatHLSLScript : EditorWindow
     static string path;
 
     [MenuItem("Assets/Create/Shader/HLSLScript")]
-    private static void OpenWindow()
+    private static void CreatHLSL()
     {
         foreach (Object obj in Selection.GetFiltered(typeof(DefaultAsset), SelectionMode.DeepAssets))
         {
