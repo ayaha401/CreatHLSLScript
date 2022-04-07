@@ -1,5 +1,5 @@
 ﻿//====================================================================================================
-// v1.0.2
+// v1.1.0
 // Twitter : @ayaha__401
 //====================================================================================================
 using System.Collections;
@@ -15,18 +15,12 @@ public class CreatHLSLScript : EditorWindow
     [MenuItem("Assets/Create/Shader/HLSLScript")]
     private static void CreatHLSL()
     {
-        foreach (Object obj in Selection.GetFiltered(typeof(DefaultAsset), SelectionMode.DeepAssets))
-        {
-            if (obj is DefaultAsset)
-            {
-                path = AssetDatabase.GetAssetPath(obj);
-            }
-        }
-
+        path = AssetDatabase.GetAssetPath(Selection.activeInstanceID);
         path = EditorUtility.SaveFilePanelInProject("CreatHLSLScript", "NewShader", "hlsl", "", path);
         if (!string.IsNullOrEmpty(path))
         {
             path = AssetDatabase.GenerateUniqueAssetPath(path);
+            
             File.WriteAllText(path,"");
             AssetDatabase.Refresh();
         }
