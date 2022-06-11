@@ -6,6 +6,7 @@ Unityで右クリックからHLSLを作れるようになるEditor拡張
 <img src = "https://user-images.githubusercontent.com/75297336/159118836-b3817761-e212-4443-ad9b-33b1f5a54a61.png">
 
 # 動作確認済みバージョン
+Unity 2021.3.41f1
 Unity 2019.4.31f1
 
 # 更新履歴
