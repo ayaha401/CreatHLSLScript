@@ -1,5 +1,6 @@
 # CreatHLSLScript
-Unityで右クリックからHLSLを作れるようになるEditor拡張
+Unityで右クリックからHLSLを作れるようになるEditor拡張<br>
+解説は[こちら](https://qiita.com/ayaha401/items/67751c4a62ab4071ea05)
 
 <img src = "https://user-images.githubusercontent.com/75297336/159118761-33d56f63-aaf3-440e-93a5-017e58806753.png">
 
